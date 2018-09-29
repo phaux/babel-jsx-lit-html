@@ -7,7 +7,7 @@
 
 **In**
 
-```js
+```jsx
 const renderProfile = user => <>
   <img class$="profile" src={user.avatarUrl} />
   <h3>{user.firstName} {user.lastName}</h3>
@@ -31,7 +31,7 @@ Regular JSX props map to lit-html property setters.
 To set an attribute use `attr$` syntax.
 To set an event handler use `on-event` syntax.
 
-```js
+```jsx
 // In
 const input = <input type$="text" value={val} on-change={handleChange}/>;
 // Out
