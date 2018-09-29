@@ -11,7 +11,7 @@
   "author": "phaux <phaux4@gmail.com>",
   "license": "ISC",
   "scripts": {
-    "prepublish": "npm test",
+    "prepublishOnly": "npm test",
     "test": "eslint index.js && node test"
   },
   "dependencies": {
