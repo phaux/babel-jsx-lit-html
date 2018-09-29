@@ -1,0 +1,26 @@
+{
+  "name": "babel-plugin-transform-jsx-lit-html",
+  "version": "0.0.0",
+  "description": "Transform JSX to lit-html template literal",
+  "repository": "phaux/babel-jsx-lit-html",
+  "keywords": [
+    "babel-plugin",
+    "jsx",
+    "lit-html"
+  ],
+  "author": "phaux <phaux4@gmail.com>",
+  "license": "ISC",
+  "scripts": {
+    "test": "eslint index.js && node test"
+  },
+  "dependencies": {
+    "@babel/plugin-syntax-jsx": "^7.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "eslint": "^5.6.0"
+  },
+  "peerDependencies": {
+    "@babel/core": "^7.0.0"
+  }
+}
